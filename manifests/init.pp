@@ -65,4 +65,9 @@ class housekeeping {
     group  => 'vagrant',
   }
 
+  #file { '/root/.ssh/known_hosts':
+  #  ensure => file,
+  #  source => 'puppet:///modules/housekeeping/bashrc',
+  #}
+
 }

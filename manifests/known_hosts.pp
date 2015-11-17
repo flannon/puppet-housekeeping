@@ -70,7 +70,7 @@ class housekeeping::known_hosts ( $username = 'root')  {
       path     => '/sbin:/usr/bin:/usr/local/bin:/bin/',
       provider => shell,
       user     => 'root',
-      require  => File [ '/root/.ssh/known_hoss', '/tmp/known_hosts,sh'],
+      require  => File [ '/root/.ssh/known_hosts', '/tmp/known_hosts.sh'],
       }
 
 }
